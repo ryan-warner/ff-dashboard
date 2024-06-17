@@ -32,8 +32,8 @@ function App() {
           <div className='py-6'>
             <ResponsiveGridLayout
               className='layout w-full'
-              breakpoints={{ lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0 }}
-              cols={{ lg: 4, md: 3, sm: 2, xs: 1, xxs: 1 }}
+              breakpoints={{ xl: 1300, lg: 1200, md: 996, sm: 900, xs: 480, xxs: 0 }}
+              cols={{xl: 3, lg: 2, md: 2, sm: 2, xs: 1, xxs: 1 }}
               rowHeight={375}
               containerPadding={[0, 0]}
               margin={[16, 16]}
